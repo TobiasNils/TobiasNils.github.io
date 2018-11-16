@@ -1,37 +1,5 @@
-## This is a test page
+# MyOpticsLab
+Jupyter Frontend for control of Ocean Optics spectrometers based on [python-seabreeze](https://github.com/ap--/python-seabreeze).
 
-You can use the [editor on GitHub](https://github.com/TobiasNils/TobiasNils.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TobiasNils/TobiasNils.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contents
+Class definitions of [MyOpticsLab](https://github.com/TobiasNils/MyOpticsLab/blob/master/lib/MyOpticsLab.py), i. e. spectrometers and helper functions for visual feedback are located in the folder "lib", "Measurement" contains [Jupyter](https://jupyter.org/) notebooks for interactive control. A live data ViewPort is implemented using [Matplotlib](https://matplotlib.org/index.html) and its [animation package](https://matplotlib.org/api/_as_gen/matplotlib.animation.FuncAnimation.html). Automated (and manual) data storage is implemented using [PyTables](https://github.com/PyTables/PyTables), interactive controls of spectrometer parameters make use of [ipywidgets](https://github.com/jupyter-widgets/ipywidgets).
