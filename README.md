@@ -1,4 +1,4 @@
-# [PythonLab](https://github.com/TobiasNils/PythonLab) *Automate laboratory tasks with Python*
+# [PythonLab](https://github.com/TobiasNils/PythonLab): *Automate laboratory tasks with Python*
 
 ---
 ## Contents
