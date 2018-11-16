@@ -15,7 +15,7 @@ stages-with-stepper-dc-brushless-dc-bldc-motors/vt-80-linear-stage-1206300/)
 (inspired by [Micos.py](https://gist.github.com/pklaus/3955382)),
 - [GPIO](): Control GPIO pins of [Raspberry Pi]()
 
-as well as some code for accessing video devices like USB-cameras. 
+.. Then there is some some code for accessing video devices like [USB-cameras]() which might come in handy. 
 
 #### Usage examples
 [Jupyter Notebooks]() are implemented for interactive control of the devices: 
