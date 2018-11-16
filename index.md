@@ -3,8 +3,8 @@
 ## [PythonLab](https://tobiasnils.github.io/PythonLab)
 *Automate laboratory tasks with Python*
 ### Modules
-#### MyLab: 
-Python Abstraction layer for interactive device control. 
+- [MyLab](): Python Abstraction layer for interactive device control. 
+
 So far implemented device classes:
 
  - [MySpectrometer](): *Ocean Optics spectrometers* (based on 
